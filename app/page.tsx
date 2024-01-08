@@ -30,7 +30,7 @@ export default async function Home() {
       <h1>Only On Mini Netflix</h1>
       <section className={styles.cardRow}>
         {data.map((movie) => (
-          <Thumbnail movie={movie} />
+          <Thumbnail key={movie.imdbID} movie={movie} />
         ))}
       </section>
     </main>
