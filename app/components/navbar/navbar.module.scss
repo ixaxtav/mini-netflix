@@ -1,0 +1,25 @@
+.navbar {
+  height: 68px;
+  padding: 0 60px;
+  display: flex;
+  align-items: center;
+  color: #e50914;
+
+  @media screen and (max-width: 650px) {
+    padding: 0 20px;
+  }
+}
+
+.linkContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  text-decoration: none;
+}
+
+.linkContainer span {
+  text-decoration: none;
+  font-weight: 500;
+  color: #e50914;
+}
