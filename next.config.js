@@ -5,6 +5,7 @@ const nextConfig = {
   },
   basePath: "/mini-netflix",
   assetPrefix: "/mini-netflix/",
+  output: "export",
 };
 
 module.exports = nextConfig;
