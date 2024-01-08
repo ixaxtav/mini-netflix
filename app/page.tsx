@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import styles from "./page.module.scss";
+import Thumbnail from "./components/thumbnail";
 
 interface Movie {
   Title: string;
@@ -29,13 +30,7 @@ export default async function Home() {
       <h1>Only On Mini Netflix</h1>
       <section className={styles.cardRow}>
         {data.map((movie) => (
-          <article key={movie.imdbID} className={styles.card}>
-            <Link href={`/movie/details/${movie.imdbID}`}>
-              <div className={styles.cardLink}>
-                <Image src={movie.Poster} alt={`Poster of the movie ${movie.Title}`} width={300} height={450} />
-              </div>
-            </Link>
-          </article>
+          <Thumbnail movie={movie} />
         ))}
       </section>
     </main>

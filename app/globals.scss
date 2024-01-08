@@ -5,6 +5,108 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.125rem;
+  margin: 0;
+}
+
+p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 2560px;
+
+@media (min-width: $breakpoint-sm) {
+  h1 {
+    font-size: 1.75rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.375rem;
+  }
+  p {
+    font-size: 1.125rem;
+  }
+}
+
+@media (min-width: $breakpoint-md) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.75rem;
+  }
+  h3 {
+    font-size: 1.625rem;
+  }
+  p {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: $breakpoint-lg) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2.25rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: $breakpoint-xl) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.75rem;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 1.35rem;
+  }
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+figure {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
 .returnLink {
   text-decoration: none;
   color: #e50914;
