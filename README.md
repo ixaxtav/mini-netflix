@@ -3,7 +3,7 @@
 A minimal version of Netflix built with Next.js
 
 ## Demo
-URL: https://mini-netflix-9xzh4rdb3-ixaxtav.vercel.app/
+URL: https://mini-netflix-two.vercel.app/ 
 
 ## Getting Started
 
