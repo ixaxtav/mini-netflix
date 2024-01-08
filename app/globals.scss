@@ -4,3 +4,15 @@ body {
   color: #e5e5e5;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+.returnLink {
+  text-decoration: none;
+  color: #e50914;
+  font-size: 1.5rem;
+  font-weight: 700;
+  transition: all 300ms ease;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
